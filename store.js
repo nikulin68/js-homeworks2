@@ -64,7 +64,7 @@ function addGood(good, amount) {
 }
 
 function delGood(good) {
-    basket.splice(good, 2); 
+    basket.splice(good, 1); 
     return basket
 }
 
